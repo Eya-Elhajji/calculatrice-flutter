@@ -1,16 +1,46 @@
-# calcul
+# 🧮 Calculatrice flutter
 
-A new Flutter project.
+**Une application de calculatrice simple développée avec Flutter**
+Projet académique réalisé à l'ISET.
 
-## Getting Started
+Une calculatrice élégante et fonctionnelle pour effectuer vos calculs du quotidien. Interface intuitive, historique des opérations et design moderne inspiré des calculatrices iOS.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Fonctionnalités
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🧮 Calculs de base
+- Opérations arithmétiques : +, -, ×, ÷
+- Gestion des nombres décimaux
+- Pourcentage (%) et changement de signe (+/-)
+- Calcul d'expressions mathématiques complètes
+- Correction avec touche retour (⌫)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 📜 Historique des calculs
+- Sauvegarde automatique de tous les calculs
+- Consultation de l'historique complet
+- Horodatage de chaque opération
+- Suppression individuelle ou globale
+- Limite de 10 calculs affichés en temps réel
+
+### 💾 Stockage local
+- Base de données SQLite intégrée
+- Données conservées entre les sessions
+- Compatible mobile et desktop
+- Performances optimisées
+
+### 🎨 Interface utilisateur
+- Design sombre moderne
+- Boutons circulaires ergonomiques
+- Affichage clair en deux parties
+- Rétroaction tactile
+- Orientation portrait uniquement
+
+---
+
+## 📱 Technologies
+
+- **Flutter** - Framework de développement
+- **Dart** - Langage de programmation
+- **SQLite** - Base de données locale
+- **math_expressions** - Évaluation des calculs
